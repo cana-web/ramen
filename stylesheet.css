@@ -1,0 +1,141 @@
+.title {
+    color: #cc0216;
+  }
+
+  .header-list li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    
+  }
+
+  header {
+    background-color:darkgrey;
+    height: 65px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .header-logo {
+    float:left;
+    color: brown;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+  }
+
+
+  .main {
+    padding: 100px 80px;
+  }
+
+  .copy-container {
+    text-align: center;
+    background-color: rgb(27, 25, 25);
+  }
+
+  .copy-container h1 {
+    font-size: 80px;
+  }
+
+  .copy-container p {
+    font-size: 40px;
+    color: #cc0216;
+  }
+
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    padding-bottom: 10px;
+  }
+
+  .contents {
+    height:500px;
+    margin-top:10px;
+    text-align: center;
+  }
+
+  .contents-item {
+    float:left;
+    width:50%;
+  }
+
+  .ramen {
+    display: inline-block;
+    height:250px;
+  }
+
+  .ramen img {
+    height: 100%;
+  }
+
+  .tsukemen-img {
+    border-radius: 100px;
+
+  }
+  
+  .btn {
+    display:inline-block;
+    padding:5px 10px;
+    background-color: grey;
+    color:white;
+    opacity:0.8;
+    border-radius: 4px;
+    box-shadow:0px 5px black;
+    transition: all 0.5s;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+.btn:active {
+    position: relative;
+    box-shadow: none;
+    top: 5px;
+}
+
+
+.contents-item p {
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top:5px;
+    letter-spacing: 4px;
+}
+
+.howto {
+  margin-top: 10px;
+}
+
+.aburasoba {
+  float: left;
+  width:50%;
+}
+
+.aburasoba li {
+  margin-right:20px
+}
+
+.tsukemen {
+  float: left;
+  width:50%;
+}
+
+ol {
+  font-size:14px;
+}
+
+
+footer {
+    background-color: darkgray;
+    height: 65px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p {
+color: brown;
+line-height: 65px;
+}
+
